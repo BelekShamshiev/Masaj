@@ -1,0 +1,92 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    .header {
+        width: 90%;
+        margin: 0 auto;
+
+        .header_title {
+            padding-top: 20px;
+            display: flex;
+            gap: 60px;
+            align-items: center;
+
+            .header_title_desc {
+                .header_title_head {
+                    align-items: center;
+                    background: #7DB2F0;
+                    width: 944px;
+                    height: 50px;
+
+                }
+
+                .header_title_head p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #FFFFFF;
+                    padding: 10px;
+                }
+            }
+
+            .header_title_desc h1 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 48px;
+                color: #000000;
+            }
+
+
+        }
+        .header_all_card{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .header_card {
+            margin-top: 85px;
+            background: #ffffff;
+            box-shadow: 3px 4px 22px rgba(0, 0, 0, 0.25);
+            border-radius: 36px;
+            width: 335px;
+            height: 263px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .header_card_title {
+                padding-top: 80px;
+            }
+
+            .header_card_title p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+
+                color: #000000;
+            }
+
+            .header_card_title_btn {
+                padding-top: 60px;
+            }
+
+            .header_card_title_btn button {
+                width: 259px;
+                border: none;
+                color: white;
+                height: 56px;
+                background: #7DB2F0;
+                border-radius: 10px;
+            }
+        }
+
+    }
+}
